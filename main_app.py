@@ -4,7 +4,7 @@ import numpy as np
 from therapy_script import therapy
 
 st.set_page_config(page_title="Wound Classifier and Therapy Recommendation", layout="centered")
-st.title('Wound Classifier and Therapy Recommendation')
+st.title('AI Wound Therapy Pro')
 
 # function to load the models to cache
 @st.cache_resource()
