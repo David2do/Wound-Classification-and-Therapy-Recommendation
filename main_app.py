@@ -1,6 +1,8 @@
 import streamlit as st
-from src import home
-from src import therapy_guidance
+import sys
+sys.path.append('./src/')
+import home
+import therapy_guidance
 
 st.set_page_config(page_title="Wound Classifier and Therapy Recommendation", layout="centered")
 
