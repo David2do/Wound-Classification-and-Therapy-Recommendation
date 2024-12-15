@@ -1,0 +1,5 @@
+# PyCharm File
+.idea/
+
+# Python binary files
+*.pyc
