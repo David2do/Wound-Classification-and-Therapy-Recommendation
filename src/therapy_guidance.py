@@ -6,8 +6,8 @@ from therapy_script import therapy
 def app():
     @st.cache_resource()
     def load_model():
-        classifier_model = tf.keras.models.load_model("./models/wound_classifier_model.keras")
         status_model = tf.keras.models.load_model("./models/wound_status_model.keras")
+        classifier_model = tf.keras.models.load_model("./models/wound_classifier_model.keras")
         return classifier_model, status_model
 
     # load the models
