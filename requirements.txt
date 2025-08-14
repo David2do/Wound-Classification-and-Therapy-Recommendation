@@ -1,6 +1,7 @@
 streamlit
-tensorflow==2.18.0
-keras==3.7.0
+tensorflow~=2.18.0
+keras~=3.7.0
 numpy
+
 
 
